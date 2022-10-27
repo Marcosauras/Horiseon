@@ -14,7 +14,7 @@ There is nothing to install, just go to https://marcosauras.github.io/Module-1-C
 This will be useful for businesses that want to increase customer trafic to their website, making it easier to find and help produce more income. 
 If you want to go to straight to one of the tatics then you can use the navigation bar at the top of the webpage and click on the name of the tatic you want to learn about and it will bring you down to it instead of having to go through the entire page to find it.
 
-md [Screenshot of Horiseon website's navigation bar](assets/images/Module%201%20challenge%20navigation%20bar%20screenshot.png)
+[Screenshot of Horiseon website's navigation bar](assets/images/Module%201%20challenge%20navigation%20bar%20screenshot.png)
 
 
 
