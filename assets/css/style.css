@@ -3,8 +3,8 @@
     padding: 0;
     margin: 0;
 }
-/* sets the background color to the webpages body*/
-body {
+/* sets the background color to the webpages body and to the word Horiseon*/
+body, .header h1 .seo {
     background-color: #d9dcd6;
 }
 /* sets the font of the class header  */
@@ -19,10 +19,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/* this adds color to the seo inside the word Horiseon */
-.header h1 .seo {
-    color: #d9dcd6;
-}
+
 /* sets the navigation bar to the right side of the webpage, and sets it's font */
 .header nav {
     padding-top: 15px;
@@ -86,55 +83,26 @@ p {
     background-color: #2589bd;
 }
 /* Sets the margin and color of the text for everything in the side bar */
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* does the same as .benefit-lead */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* does the same as .benefit-lead */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+
 /*sets a margin and aligns the text in the sidebar  */
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* does the same as .benefit-lead h3 */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* does the same as .benefit-lead h3 */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 /* sets the display type, margin and max size of image in the side bar. */
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* does the same as .benefit-lead img */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* does the same as .benefit-lead img */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* sets the margin, padding, height, the type of font being used, background color and the text color for the article covering how search engine optimization works. */
-.search-engine-optimization {
+
+/* adds spacing so the words are not cramped together and are all readable */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,59 +110,25 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* does the same as .search-engine-optimization but for the article that explains how online reputation management works */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* does the same as .search-engine-optimization but for the article that explains how social media marketing works */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* set's the img with the "desk with notebook on it, that shows how SEO works" max height */
-.search-engine-optimization img {
+
+/* Sets img size*/
+.search-engine-optimization img, .social-media-marketing img, .online-reputation-management img{
     max-height: 200px;
 }
-/* set's the img with the "Laptop with a graph displayed on it's screen" max height */
-.online-reputation-management img {
-    max-height: 200px;
-}
-/* set's the img with the "table with lots of social media refrences" max height*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* sets the margin size under the text and the font size for the h2 under .search engine optimization */
-.search-engine-optimization h2 {
+
+/* sets margins to keep it from looking squished, and adds a bigger font-size to make it easier to read */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* sets the margin size under the text and the font size for the h2 under .online-reputation-management */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* sets the margin size under the text and the font size for the h2 under social-media-marketing */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*  */
+/* sets the footer to be spaced out*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*  */
+/* sets only the h2 div in the footer font-size bigger so it can be read */
 .footer h2 {
     font-size: 20px;
 }
